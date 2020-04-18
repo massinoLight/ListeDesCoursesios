@@ -15,6 +15,13 @@ pod 'Firebase/Analytics'
 # For example, to use Firebase Authentication and Cloud Firestore
 pod 'Firebase/Auth'
 pod 'Firebase/Firestore'
+pod 'FirebaseUI/Auth'
+
+pod 'FirebaseUI/Google'
+pod 'FirebaseUI/Facebook'
+pod 'FirebaseUI/OAuth' # Used for Sign in with Apple, Twitter, etc
+pod 'FirebaseUI/Phone'
+
 
 
 end

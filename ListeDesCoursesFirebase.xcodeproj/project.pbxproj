@@ -107,6 +107,7 @@
 				54BB2389244B426D00A71E33 /* Frameworks */,
 				54BB238A244B426D00A71E33 /* Resources */,
 				69458E653FDDBAFAA3300E83 /* [CP] Embed Pods Frameworks */,
+				8F816B068CD0A3BC7278E4F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +203,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ListeDesCoursesFirebase/Pods-ListeDesCoursesFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F816B068CD0A3BC7278E4F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ListeDesCoursesFirebase/Pods-ListeDesCoursesFirebase-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ListeDesCoursesFirebase/Pods-ListeDesCoursesFirebase-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ListeDesCoursesFirebase/Pods-ListeDesCoursesFirebase-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
